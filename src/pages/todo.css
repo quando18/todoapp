@@ -1,0 +1,44 @@
+.todo-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 10px;
+  margin-right: 5px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 30%;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task .buttons {
+  margin-top: 5px;
+}
